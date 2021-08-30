@@ -126,7 +126,9 @@ main{
 }
 
 .recentPost{/*recent post writing*/
-    padding: 0 0 3% 3%;
+    padding: 2% 2% 2% 5%;
+    width: 40%;
+    background-color: var(--midBege);
 }
 /*Recent Post Area Grid*/
 .recentPostArea{
@@ -201,4 +203,7 @@ footer img{
     width: 2px;
     height: 20px;
     background-color: var(--midBlue);
+}
+.nextEvents{
+    padding: 2% 2% 1% 5%;
 }
