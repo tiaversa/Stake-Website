@@ -81,9 +81,8 @@ nav{
     font-weight: 600;
     color: var(--lightBege);
 }
-.menuUL a :hover{
+.menuUL li :hover{
     color: var(--darkBege);
-    
 }
 .iconImage{
     width: 25px;
