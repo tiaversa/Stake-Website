@@ -1,0 +1,78 @@
+:root{
+    --darkBlue:#2b4863;
+    --midBlue: #38628a;
+    --darkBege: #353535;
+    --midBege: #d9d9d9;
+    --lightBege: #ffffff;
+}
+.menuContainer{
+    position: relative;
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+.wardMenu{
+    width: 30%;
+}
+.wardMenuUL{
+    list-style-type: none;
+}
+.wardMenuUL button{
+    width: 100%;
+    padding: 2%;
+    font-size: medium;
+}
+
+.container{
+    width: 50%;
+    background-color: darkcyan;
+}
+.container iframe{
+    width: 90%;
+}
+.container div{
+    justify-content: center;
+    padding: 2%;
+}
+.card{
+    display: none;
+}
+.dahlem{
+    grid-area: ward1;
+}
+.glienicke{
+    grid-area: ward2;
+}
+.lankwitz{
+    grid-area: ward3;
+}
+.marzahn{
+    grid-area: ward4;
+}
+.neukolln{
+    grid-area: ward5;
+}
+.spandau{
+    grid-area: ward6;
+}
+.tiergarten{
+    grid-area: ward7;
+}
+.bbe{
+    grid-area: ward8;
+}
+.brandenburg{
+    grid-area: ward9;
+}
+.greifswald{
+    grid-area: ward10;
+}
+.leest{
+    grid-area: ward11;
+}
+.neubrandenburg{
+    grid-area: ward12;
+}
+.postdam{
+    grid-area: ward13;
+}
