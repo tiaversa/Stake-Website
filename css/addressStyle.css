@@ -5,6 +5,11 @@
     --midBege: #d9d9d9;
     --lightBege: #ffffff;
 }
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .menuContainer{
     position: relative;
     display: flex;
@@ -12,11 +17,86 @@
     justify-content: center;
 }
 .wardMenu{
-    width: 30%;
+    position: relative;
+    height: 60vh;
+    width: 30vw;
+    background-color: var(--midBege);
+    box-shadow: 10px 0 0 darkcyan;
 }
 .wardMenuUL{
-    list-style-type: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
 }
+
+.list{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+}
+
+li.active{
+    background-color: darkcyan;
+
+}
+
+.list a{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: #353535;
+}
+li.active a::before{
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 darkcyan;
+}
+li.active a::after{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 15px -15px 0 darkcyan;
+}
+
+.list a .icon{
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.icon img{
+    position: relative;
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+.listName{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+
 .wardMenuUL button{
     width: 100%;
     padding: 2%;
